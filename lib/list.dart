@@ -81,11 +81,9 @@ class _ListViewHomeState extends State<ListViewHome> {
                           title: Text(data[index].name),
                           subtitle: Column(
                             children: [
-                              Text(data[index].id.toString()),
+                        
                               Text(data[index].company),
-                              Text(data[index].orderId.toString()),
-                              Text(data[index].invoicepaid),
-                              Text(data[index].invoicePending),
+                           
                             ],
                           ),
                         ));
